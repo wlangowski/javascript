@@ -1,17 +1,26 @@
 html{
     background-color: aquamarine;
+    font-family: 'Lora', serif;
 }
 
 #navigation{
-    background-color: blueviolet;
-    padding: 5px;
+    background-color: blanchedalmond;
+        padding: 5px;
     border: 1px solid lightgray;
 }
 #navigation ul{
-    list-style: none;
     display: flex;
+    list-style: none;
+
 }
 
 #navigation ul li{
     padding: 0 50px;
+}
+
+.aboutme{
+background-color: darkgray;
+font-size: 15px;
+padding: 0 5px;
+
 }
