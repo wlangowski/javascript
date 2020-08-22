@@ -21,6 +21,18 @@ html{
 .aboutme{
 background-color: darkgray;
 font-size: 15px;
-padding: 0 5px;
+color: brown;
+padding: 12px 15px;
 
 }
+
+.aboutme h1{
+    background-color: darkgray;
+ color: black;
+    padding: 0 55px;
+    
+    }
+
+    .aboutme img{
+        width: 100%;
+    }
