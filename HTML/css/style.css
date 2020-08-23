@@ -29,6 +29,7 @@ nav ul li {
     font-size: 18px;
     color: brown;
     padding: 12px 15px;
+    /* margin-top: 150px; */
 }
 
 .aboutme h1 {
@@ -43,7 +44,7 @@ nav ul li {
 
 p {
     font-weight: 400;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 
 #contactForm {
@@ -89,4 +90,8 @@ footer {
     padding: 40px 10px;
     top: 0px;
     left: 0px;
+}
+
+#firstArt {
+    margin-top: 1150px;
 }
