@@ -1,38 +1,92 @@
-html{
+html {
     background-color: aquamarine;
-    font-family: 'Lora', serif;
+    font-family: 'Germania One', cursive;
 }
 
-#navigation{
+nav {
     background-color: blanchedalmond;
-        padding: 5px;
+    padding: 5px;
     border: 1px solid lightgray;
 }
-#navigation ul{
+
+nav ul {
     display: flex;
     list-style: none;
-
+    justify-content: flex-end;
 }
 
-#navigation ul li{
+nav ul li {
     padding: 0 50px;
+    border-radius: 10px;
+    border: 10 black;
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 0px 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.aboutme{
-background-color: darkgray;
-font-size: 15px;
-color: brown;
-padding: 12px 15px;
-
-}
-
-.aboutme h1{
+.aboutme {
     background-color: darkgray;
- color: black;
-    padding: 0 55px;
-    
-    }
+    font-size: 18px;
+    color: brown;
+    padding: 12px 15px;
+}
 
-    .aboutme img{
-        width: 100%;
-    }
+.aboutme h1 {
+    background-color: darkgray;
+    color: black;
+    padding: 0 55px;
+}
+
+.aboutme img {
+    width: 100px;
+}
+
+p {
+    font-weight: 400;
+}
+
+#contactForm {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+#contactForm input[type=submit] {
+    margin-top: 250px;
+}
+
+#contactForm label {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+#contactForm label span {
+    width: 100px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: ivory;
+    border: 1px dashed red;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+#navbar {
+    position: fixed;
+    transition: .5s all;
+    z-index: 2;
+    width: 100%;
+    padding: 40px 10px;
+    top: 0;
+    left: 0;
+}
